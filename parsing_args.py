@@ -14,4 +14,5 @@ import argparse
 parser = argparse.ArgumentParser()
 parser.add_argument("-i", action="store", dest="infile") # type string is default
 args = parser.parse_args()
+
 print "in file: ", args.infile
