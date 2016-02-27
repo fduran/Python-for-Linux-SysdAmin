@@ -57,7 +57,7 @@ ll.append("be")
 
 ll.show()
 
-# -----------------------------------------------------------
+# ------------------------------------------------------------
 # Inheritance Example
 class aPlayer(object):
     ''' Object for players'''
