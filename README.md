@@ -16,6 +16,7 @@
 
 ## Other Modules
 
+- Send mail with [smtplib](https://docs.python.org/2/library/smtplib.html)
 - datetime
 - itertools
 - paramiko
