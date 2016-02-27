@@ -1,0 +1,7 @@
+john 4.5
+mary 3.1
+luis 0.5
+mark 0
+john 2.2
+luis 3.7
+carl 6
