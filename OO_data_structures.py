@@ -56,3 +56,37 @@ ll.append("to")
 ll.append("be")
 
 ll.show()
+
+# -----------------------------------------------------------
+# Inheritance Example
+class aPlayer(object):
+    ''' Object for players'''
+    def __init__(self, name="none", skill=0.0):
+        self.name = name
+        self.skill = skill
+
+    def summary(self):
+        print "%s: %.2f" %(str(self.name), float(self.skill))
+
+
+class aGoalie(aPlayer):
+    ''' goalie is-a Player '''
+    def __init__(self, name, skill=0.0, height=0.0):
+        super(aGoalie,self).__init__(name, skill)
+        self.height = height
+
+
+pepe = aPlayer("Pepe")
+pepe.summary()
+
+paco = aPlayer("Paco", 23)
+paco.summary()
+
+luis = aPlayer("Luis", 35.223)
+luis.summary()
+
+neuer = aGoalie("Neuer")
+neuer.summary()
+
+iker = aGoalie("Iker", 3.1, 5.9)
+iker.summary()
