@@ -1,12 +1,12 @@
 # optparse deprecated in 2.7
 import optparse
 
-
 p = optparse.OptionParser()
 p.add_option("-i", "--inputfile", action="store", type="string", dest="infile")
 opt, args = p.parse_args()
 
 print "in file: ", opt.infile
+
 
 # use argparse instead in 2.7 
 import argparse
