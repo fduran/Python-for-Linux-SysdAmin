@@ -1,5 +1,3 @@
-#!/usr/bin/env python
-
 # Find stats (max, average) from a scores.txt files of the form:
 # student_name score
 # student_name score
