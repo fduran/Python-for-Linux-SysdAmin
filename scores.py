@@ -3,7 +3,7 @@
 # student_name score
 # where student_name can be repeated and score is a numerical value
 
-
+# Solution:
 # 1. read file, get values in dictionary of lists like:
 # grades = { "joe": [2, 4.5], 
 #           "mary": [0.3, 3.4, 6.7],
@@ -27,7 +27,7 @@ with open("scores.txt") as fd:
 
 print "Grades: ", grades
             
-# 2. stats
+# 2. calculate stats
 L = []
 max_value = 0.0
 for k, vlist in grades.items():
