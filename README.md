@@ -2,6 +2,7 @@
 
 - Aimed at Linux sysadmins with knowledge of Bash or Perl that are learning Python or developers wanting to perform system administration or automate Linux stuff with Python
 - Based on Python 2.7
+- Examples based on usage of the Python modules that are most useful for sysadmin work
 
 ## Basic Modules
 
