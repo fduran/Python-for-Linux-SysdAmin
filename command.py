@@ -2,7 +2,7 @@ import shlex, subprocess
 
 
 def execute(command):
-    ''' Executes exernal command '''
+    ''' Executes external command '''
     # shlex.split tokenizes command into a list
     args = shlex.split(command)
     res = subprocess.Popen(args, stdout = subprocess.PIPE)
