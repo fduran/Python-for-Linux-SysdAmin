@@ -13,8 +13,7 @@
 
 grades = {}
 with open("scores.txt") as fd:
-    lines = fd.readlines()
-    for line in lines:
+    for line in fd:
         line.strip()
         student, score = line.split()
         score = float(score)
