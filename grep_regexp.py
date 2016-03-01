@@ -5,7 +5,7 @@ def grep(afile, asearch):
     reobj = re.compile(asearch)
     matches = 0
     with open(afile) as fd:
-        for line in fd.readlines():
+        for line in fd:
             if reobj.search(line):
                 matches += 1
                 print line.strip()
