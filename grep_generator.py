@@ -1,8 +1,7 @@
 def grep(afile, astring):
     ''' function implementing grep-like , with generator '''
     with open(afile) as fd:
-        lines = fd.readlines()
-        for line in lines:
+        for line in fd:
             if astring in line:
                 yield str(line).strip()
 
