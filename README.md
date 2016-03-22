@@ -18,12 +18,12 @@
 ## Other Modules
 
 - Send mail with [smtplib](https://docs.python.org/2/library/smtplib.html)
+- Filename pattern matching with [fnmatch] (https://docs.python.org/2/library/fnmatch.html)
 - datetime
 - itertools
 - paramiko
 - daemon
 - filecmp
-- fnmatch
 - glob
 - csv
 - requests
